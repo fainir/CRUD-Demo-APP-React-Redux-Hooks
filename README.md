@@ -1,5 +1,5 @@
-#CRUD Demo APP React Redux Hooks
-##Use Cases
+# CRUD Demo APP React Redux Hooks
+## Use Cases
 The user can view a list of all existing categories.
 When the user chooses a category from the list, it is highlighted, and he can click any of the actions in the toolbar to manage the category - edit, view details, delete.
 There is a permanent toolbar at the top, for all screens. It contains a title and actions. The title and actions update according to context. For example, when the user is in the “category list” or “new category” screens there is no specific category in the context so it doesn’t make sense to make the “edit” / “delete” actions available. The title in this case can be “Categories” and the only available action is “new category”. If there is a category in context the available actions would be “edit”, “delete”, “view”.
